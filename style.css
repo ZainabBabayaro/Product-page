@@ -1,0 +1,176 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(235, 233, 233, 0.86);
+}
+
+.page-title,
+.product-container,
+.page-number {
+    width: 73%;
+    height: 30px;
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.page-title {
+    font-size: 25px;
+    color: rgb(56, 45, 45);
+    padding-top: 10px;
+}
+
+.product-container {
+    height: 600px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+}
+
+.page-number {
+    height: 50px;
+}
+
+.product {
+    height: 33px;
+    padding-left: 10px;
+    color: #434141;
+}
+
+.search,
+.search-button,
+.add-product,
+.add-product-button {
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.search {
+    width: 57%;
+    border: 1px solid #e8e3e3;
+    border-radius: 3px;
+    height: 2px;
+  
+}
+
+.search-button {
+    width: 85px;
+    background-color: rgb(62, 85, 112);
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    margin-left: 4px;
+}
+
+.add-product {
+    width: 48%;
+    border: 1px solid #e8e3e3;
+    border-radius: 3px;
+    height: 2px;
+}
+
+.add-product-button {
+    width: 120px;
+    background-color: rgb(70, 114, 101);
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    margin-left: 3px;
+}
+
+::placeholder {
+    margin: 2px;
+    color: #b8b4b4;
+}
+
+div>img {
+    width: 20px;
+    float: left;
+    padding-right: 10px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+}
+
+p {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.product-section>div {
+    border-bottom: 1px solid #f1f1f1;
+    margin: 12px 14px;
+}
+
+.dot-green {
+    background-color: rgb(70, 114, 101);
+}
+
+.dot-4 {
+    background-color: rgb(182, 44, 44)
+}
+
+.dot-6 {
+    background-color: rgb(197, 174, 24)
+}
+
+input {
+    padding: 15px;
+}
+
+.drop-down:hover {
+    cursor: pointer;
+}
+
+.drop-down {
+    border: none;
+    outline: none;
+   
+}
+.page-number{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+       
+}
+.page-number select{
+    border: none;
+    outline: none;
+    background-color:rgba(235, 233, 233, 0.86);
+    
+   
+}
+.page-number select:hover{
+    cursor: pointer;
+   
+}
+.date{
+    font-size: 14px;
+}
+.all-product-info{
+    display: flex;
+    justify-content: space-between;
+}
